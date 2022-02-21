@@ -9,4 +9,5 @@ public class Query
                 Name = "Jon Skeet"
             }
         };
+        
 }
