@@ -1,0 +1,4 @@
+21/02/22
+
+install GraphQl with HotChocolate
+$ dotnet add package HotChocolate.AspNetCore
