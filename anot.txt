@@ -5,3 +5,6 @@ $ dotnet add package HotChocolate.AspNetCore
 
 install 
 $ dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
+install
+$ dotnet add package FluentValidation
