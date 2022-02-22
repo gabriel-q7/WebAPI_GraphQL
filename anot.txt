@@ -2,3 +2,6 @@
 
 install GraphQl with HotChocolate
 $ dotnet add package HotChocolate.AspNetCore
+
+install 
+$ dotnet add package Microsoft.EntityFrameworkCore.InMemory
