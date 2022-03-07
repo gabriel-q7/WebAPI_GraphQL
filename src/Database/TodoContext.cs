@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using src.Database.Domain;
+using WebAPI_GraphQL_sln.src.Database.Domain;
 
-namespace src.Database
+namespace WebAPI_GraphQL_sln.src.Database
 {
     public class TodoContext : DbContext
     {

@@ -1,4 +1,6 @@
-namespace src.BusinessRules.Requests
+using System;
+
+namespace WebAPI_GraphQL_sln.src.BusinessRules.Requests
 {
     public class UpsertTaskRequest
     {
@@ -9,6 +11,5 @@ namespace src.BusinessRules.Requests
         public string? Description {get; set;}
 
         public bool Done {get; set;}
-        
     }
 }

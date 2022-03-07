@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using src.Database;
-using src.Database.Repositories;
-using src.BusinessRules.Validators;
+using WebAPI_GraphQL_sln.src.Database;
+using WebAPI_GraphQL_sln.src.Database.Repositories;
+using WebAPI_GraphQL_sln.src.BusinessRules.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 

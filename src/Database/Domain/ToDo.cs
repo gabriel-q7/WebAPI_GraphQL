@@ -1,4 +1,6 @@
-namespace src.Database.Domain
+using System;
+
+namespace WebAPI_GraphQL_sln.src.Database.Domain
 {
     public class ToDo
     {

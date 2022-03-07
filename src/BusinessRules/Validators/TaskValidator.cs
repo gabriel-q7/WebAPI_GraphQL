@@ -1,7 +1,7 @@
 using FluentValidation;
-using src.BusinessRules.Requests;
+using WebAPI_GraphQL_sln.src.BusinessRules.Requests;
 
-namespace src.BusinessRules.Validators
+namespace WebAPI_GraphQL_sln.src.BusinessRules.Validators
 {
     public class TaskValidator : AbstractValidator<UpsertTaskRequest>,  ITaskValidator
     {

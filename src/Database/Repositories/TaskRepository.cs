@@ -1,6 +1,9 @@
-using src.Database.Domain;
+using System;
+using System.Linq;
+using WebAPI_GraphQL_sln.src.Database.Domain;
+using WebAPI_GraphQL_sln.src.Database;
 
-namespace src.Database.Repositories
+namespace WebAPI_GraphQL_sln.src.Database.Repositories
 {
     public class TaskRepository : ITaskRepository
     {
