@@ -1,5 +1,3 @@
-using System;
-
 namespace WebAPI_GraphQL_sln.src.BusinessRules.Requests
 {
     public class UpsertTaskRequest

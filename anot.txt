@@ -8,3 +8,7 @@ $ dotnet add package Microsoft.EntityFrameworkCore.InMemory
 
 install
 $ dotnet add package FluentValidation
+
+07/03
+
+variável readonly -> '_' no inicio
