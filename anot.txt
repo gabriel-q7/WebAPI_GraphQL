@@ -12,3 +12,6 @@ $ dotnet add package FluentValidation
 07/03
 
 variável readonly -> '_' no inicio
+
+09/03
+O uso da interface em vez da classe é recomendado, pois na interface existe apenas as assinaturas do métodos. Isso facilita caso a implementação dos métodos da classe mudem.  

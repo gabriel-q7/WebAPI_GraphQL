@@ -25,6 +25,10 @@ builder.Services
     
     //Business rules
     .AddScoped<IUpsertTaskHandler,UpsertTaskHandler>()
+
+    .AddScoped<IGetAllTasksHandler, GetAllTasksHandler>()
+
+    .AddScoped<IGetByIdTaskHandler, GetByIdTaskHandler>()
     ;
 
 //app.MapGet("/", () => "Hello World!");
