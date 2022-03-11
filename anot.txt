@@ -15,3 +15,15 @@ variável readonly -> '_' no inicio
 
 09/03
 O uso da interface em vez da classe é recomendado, pois na interface existe apenas as assinaturas do métodos. Isso facilita caso a implementação dos métodos da classe mudem.  
+
+Configuração inicial de usuário
+$ aws configure
+
+Serverless: cria os recursos automaticamente em qualquer provedor
+de nuvem, usando apenas um arquivo de configuração e cli.
+
+$ npm install -g serverless
+
+aws com serverless só funciona com dotnetcore3.1
+
+11/03
