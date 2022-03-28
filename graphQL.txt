@@ -1,0 +1,46 @@
+mutation upsertTask {
+  upsertTask (request: {
+    #id: "9fc4763b-55bf-4f7a-9be7-afaa767bb0e7"
+    title: "Teste title 2"
+    description: "Test description 2"
+    done: true
+  }){
+    payload {
+      id
+      title
+      description
+      done
+      dtDone
+    }
+    errors {
+      errorCode
+      errorMessage
+      propertyName
+      severity
+    }
+  }
+}
+
+query getTask {
+  task (request: { id: "9fc4763b-55bf-4f7a-9be7-afaa767bb0e7" }){
+    payload {
+      id
+      title
+      description
+      done
+      dtDone
+    }
+  }
+}
+
+query getTasks {
+  tasks {
+    payload {
+      id
+      title
+      description
+      done
+      dtDone
+    }
+  }
+}

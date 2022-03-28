@@ -1,0 +1,4 @@
+
+18/03
+
+$ dotnet new tool-manifest
