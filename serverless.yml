@@ -14,7 +14,7 @@ package:
 
 functions:
   handler:
-    handler: WebAPI_GraphQL_sln::WebAPI_GraphQL_sln.LambdaEntryPoint::FunctionHandlerAsync
+    handler: ToDoApi::ToDoApi.LambdaEntryPoint::FunctionHandlerAsync
     events:
       - http:
           path: /{proxy+}

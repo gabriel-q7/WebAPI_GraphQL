@@ -2,3 +2,13 @@
 18/03
 
 $ dotnet new tool-manifest
+
+28/03 
+criar o zip
+$ dotnet lambda package
+
+realizar deploy
+$ serveless --stage prod deploy
+
+remover deploy
+$ serverless remove --stage prod
